@@ -2,26 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/* .multi-select-container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+} */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+/* .custom-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* .custom-input .tag {
+  background-color: #e0e0e0;
+  margin: 2px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+} */
+
+/* .custom-input .tag button {
+  border: none;
+  background: transparent;
+  margin-left: 4px;
+  cursor: pointer;
+} */
+
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
