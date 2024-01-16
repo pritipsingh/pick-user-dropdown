@@ -1,4 +1,4 @@
-import Dropdown from "@/components/Dropdown"
+import Dropdown from "@/Components/Dropdown"
 
 export default function Home() {
   return (
