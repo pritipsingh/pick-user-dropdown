@@ -2,7 +2,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { OptionsForDropdown } from '@/Constant';
 import { optionsTypes } from '@/types/OptionsTypes';
-function MultiSelectInput() {
+
+
+function Dropdown() {
   const [selectedOptions, setSelectedOptions] = useState<optionsTypes[] | []>([]);
   const [inputValue, setInputValue] = useState<string>('');
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
@@ -190,7 +192,7 @@ return (
 );
 }
 
-export default MultiSelectInput;
+export default Dropdown;
 
 
 

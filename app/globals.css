@@ -2,34 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .multi-select-container {
-  border: 1px solid #ccc;
-  padding: 5px;
-  border-radius: 4px;
-} */
-
-/* .custom-input {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-} */
-
-/* .custom-input .tag {
-  background-color: #e0e0e0;
-  margin: 2px;
-  padding: 3px 8px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-} */
-
-/* .custom-input .tag button {
-  border: none;
-  background: transparent;
-  margin-left: 4px;
-  cursor: pointer;
-} */
-
 .dropdown-menu {
   background-color: white;
   border: 1px solid #ccc;
