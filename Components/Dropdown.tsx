@@ -169,7 +169,7 @@ return (
                     <p className='text-[1rem] text-gray-700'>{option.name}</p>
                   </div>
                   <div>
-                    <p className='text-[0.8rem] text-gray-500 sm:hidden'>{option.email}</p>
+                    <p className='text-[0.8rem] text-gray-500'>{option.email}</p>
                   </div>
                 </div>
               ))}
